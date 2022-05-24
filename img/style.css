@@ -1,0 +1,139 @@
+* {
+    outline: 1px solid orange;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+.site-header {
+    min-height: 100px;
+  padding-top: 10px;
+  padding-bottom: 105px;
+}
+.site-header .container {
+  background-image: url("../img/moon-rocket.png");
+  background-repeat: no-repeat;
+  background-position: 680px 130px;
+}
+.main-nav {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 1120px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 60px;
+    margin-top: 0px;
+}
+.site-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+    
+    list-style: none;
+/*list-style-image: url("../img/right-arrow-dark.png");*/
+}
+.site-menu a {
+  display: block;
+  margin-right: 40px;
+}
+.contacts-menu {
+  display: flex;
+  justify-content: flex-end;
+   width: 480px;
+  margin-top: 30px;
+  margin-left: auto;
+      margin-right: 80px;
+  padding: 0;
+
+  list-style: none;
+    font-size: 0; 
+}
+.contacts-menu li {
+  margin-left: 10px;
+}
+
+.contacts-menu a:hover {
+  opacity: 0.8;
+}
+
+.contacts-menu a:active {
+  opacity: 0.4;
+}
+
+.contacts-menu .icon {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+.contacts-menu .icon-mail {
+  background-image: url(../img/mail-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.contacts-menu .icon-phone {
+  background-image: url(../img/phone-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+.about-us {
+  width: 300px;
+  padding-left: 200px;
+}
+
+.about-us h1 {
+  margin: 0;
+  margin-bottom: 40px;
+    margin-top: 100px;
+  padding: 0;
+}
+.about-us p {
+  margin: 0;
+  margin-bottom: 50px;
+  padding-left: 5px;
+}
+.btn-yellow {
+  position: relative;
+
+  display: inline-block;
+  width: 195px;
+  padding: 0 25px;
+    margin-bottom: 190px;
+}
+.btn-yellow:after {
+  content: "";
+
+  position: absolute;
+  right: 20px;
+  top: 17px;
+
+  width: 19px;
+  height: 16px;
+
+  background-image: url(../img/right-arrow-dark.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.btn-yellow {
+  background-color: #feca30;
+}
+
+.btn-yellow:hover {
+  background-color: white;
+}
+
+.btn-yellow:active {
+  background-color: #c1a300;
+}
